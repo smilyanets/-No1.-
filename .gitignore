@@ -55,3 +55,16 @@ public static void main(String[] args) {
 }
 }
 -----------------------------------------------------------------------
+Завдання No5. Остання цифра
+-----------------------------------------------------------------------
+package namer;
+
+public class Name{
+
+	public static void main(String[] args) {
+		int a = 179;
+		System.out.println( a % 10);
+	}
+
+	
+}
