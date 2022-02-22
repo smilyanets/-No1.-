@@ -1,3 +1,4 @@
+Завдання No1. Гіпотенуза
 package namer;
 public class Name {
 
@@ -7,4 +8,25 @@ public class Name {
               double c = Math.sqrt (a * a + b * b);
               System.out.println("Gipotenuza = "+c);
            }
+}
+Завдання No3. Поділ яблук - 1
+package namer;
+
+import java.io.*;
+import java.util.*;
+
+public class Name
+{
+public static void main(String[] args) {
+try (var in = new Scanner(System.in)) {
+	PrintWriter out = new PrintWriter(System.out);
+	int a= 3;
+	int b = 14;
+	int c;
+	c=b/a;
+	out.println(c);
+	
+	out.flush();
+}
+}
 }
