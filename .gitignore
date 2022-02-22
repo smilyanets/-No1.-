@@ -13,12 +13,11 @@ public class Name {
 package namer;
 
 import java.io.*;
-import java.util.*;
 
 public class Name
 {
 public static void main(String[] args) {
-try (var in = new Scanner(System.in)) {
+
 	PrintWriter out = new PrintWriter(System.out);
 	int a= 3;
 	int b = 14;
