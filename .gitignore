@@ -15,20 +15,15 @@ public class Name {
 -----------------------------------------------------------------------
 package namer;
 
-import java.io.*;
-
 public class Name
 {
 public static void main(String[] args) {
 
-	PrintWriter out = new PrintWriter(System.out);
 	int a= 3;
 	int b = 14;
 	int c;
 	c=b/a;
-	out.println(c);
-	
-	out.flush();
+	System.out.println(c);
 }
 }
 -----------------------------------------------------------------------
@@ -36,22 +31,17 @@ public static void main(String[] args) {
 -----------------------------------------------------------------------
 package namer;
 
-import java.io.*;
-
 public class Name
 {
 public static void main(String[] args) {
 
-	PrintWriter out = new PrintWriter(System.out);
 	int a= 3;
 	int b = 14;
 	int c;
 	int k;
 	c=b/a;
 	k=b-a*c;
-	out.println(k);
-	
-	out.flush();
+	System.out.println(k);
 }
 }
 -----------------------------------------------------------------------
@@ -235,6 +225,24 @@ public class Name{
 		riz_s = s2 - s1;
         
         System.out.print(riz_h * 3600 + riz_m * 60 + riz_s);
+	}
+	
+}
+-----------------------------------------------------------------------
+Завдання No16. Автопробіг
+-----------------------------------------------------------------------
+package namer;
+
+public class Name{
+
+	public static void main(String[] args) {
+		
+		int n = 700 ;
+		int m = 2100;
+		int d;
+		d=(-m) / n;
+        
+        System.out.print(-d);
 	}
 	
 }
