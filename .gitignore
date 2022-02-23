@@ -115,3 +115,22 @@ public class Name{
 
 	
 }
+-----------------------------------------------------------------------
+Завдання No10. Електронний годинник - 1
+-----------------------------------------------------------------------
+package namer;
+
+public class Name{
+
+	public static void main(String[] args) {
+		int a = 150;
+		int b;
+		int c;
+		b = (a / 60) % 24;
+		c = a % 60;
+		System.out.print(b+" h ");
+		System.out.print(c+" min");
+
+	
+}
+}
