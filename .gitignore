@@ -280,3 +280,20 @@ public static void main(String[] args) {
 }
 }
 }
+-----------------------------------------------------------------------
+Завдання No18. Равлик
+-----------------------------------------------------------------------
+package namer;
+
+public class Name
+{
+public static void main(String[] args) {
+	
+	int a = 10;
+	int b = 3;
+	int c = 2;
+	
+	System.out.print((a - 2 * c + b - 1) / (b - c));
+	
+}
+}
