@@ -210,3 +210,31 @@ public class Name{
 	}
 	
 }
+-----------------------------------------------------------------------
+Завдання No15. Різниця часів
+-----------------------------------------------------------------------
+package namer;
+
+public class Name{
+
+	public static void main(String[] args) {
+		
+		int h1 = 11;
+		int m1 = 36;
+		int s1 = 56;
+		int h2 = 14;
+		int m2 = 41;
+		int s2 = 13;
+		
+		int riz_h;
+		int riz_m;
+		int riz_s;
+		
+		riz_h = h2 - h1;
+		riz_m = m2 - m1;
+		riz_s = s2 - s1;
+        
+        System.out.print(riz_h * 3600 + riz_m * 60 + riz_s);
+	}
+	
+}
