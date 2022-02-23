@@ -246,3 +246,37 @@ public class Name{
 	}
 	
 }
+-----------------------------------------------------------------------
+Завдання No17. Поділ яблук - 3
+-----------------------------------------------------------------------
+package namer;
+
+public class Name
+{
+public static void main(String[] args) {
+
+	int shk = 7;
+	int yab = 30;
+	int c;
+	int k;
+	int nep;
+	int nep2;
+	
+	c = yab / shk;
+	
+	k = yab - shk * c;
+	nep2 = k;
+	
+	nep = shk - k;
+	
+	if (k==0) {
+	
+	System.out.println(nep2);
+}
+	if (k>0) {
+		
+	System.out.println(nep);
+		
+}
+}
+}
