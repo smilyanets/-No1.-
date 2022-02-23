@@ -346,3 +346,20 @@ public static void main(String[] args) {
 -----------------------------------------------------------------------
 Завдання No21. Максимум
 -----------------------------------------------------------------------
+package namer;
+
+public class Name
+{
+public static void main(String[] args) {
+	
+	int a = 8;
+	int b = 5;
+	
+	int c = (a % b) / a * b ;
+	int d = (b % a) / b * a ;
+	int e = (a / b) * (b / a) * a ;
+			
+	System.out.print (c + d + e);
+
+}
+}
